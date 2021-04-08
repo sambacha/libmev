@@ -7,26 +7,23 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node: ['10.x', '12.x', '14.x']
-        os: [ubuntu-latest, windows-latest, macOS-latest]
+        node: ['14.x']
+        os: ['ubuntu-latest']
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/cache@v2.1.4
 
       - name: Use Node ${{ matrix.node }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Install deps and build (with cache)
-        uses: bahmutov/npm-install@v1
-
-      - name: Lint
-        run: yarn lint
-
-      - name: Test
-        run: yarn test --ci --coverage --maxWorkers=2
+      - name: Install
+        run: npm install
 
       - name: Build
-        run: yarn build
+        run: npm run build
+
+      - name: Build
+        run: npm run lint
