@@ -16,6 +16,7 @@
     "test": "tsdx test",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
+    "postinstall": "npm install ethers",
     "size": "size-limit",
     "analyze": "size-limit --why",
     "docs": "npx typedoc src/index.ts"
@@ -35,7 +36,7 @@
     },
     {
       "path": "dist/libmev.esm.js",
-      "limit": "10 KB"
+      "limit": "30 KB"
     }
   ],
   "devDependencies": {
