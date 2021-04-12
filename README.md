@@ -2,34 +2,14 @@
 
 [![CI](https://github.com/sambacha/libmev/actions/workflows/main.yml/badge.svg)](https://github.com/sambacha/libmev/actions/workflows/main.yml)
 
-
 > miner extracted value library
 
 ### Overview 
 
 > [libmev overview](https://sambacha.github.io/libmev/modules.html)
 
-## License
 
-SPDX-License-Identifier: MIT AND SSPL-1.0
-libmev / [Exports](modules.md)
-
-# [libmev](#)
-
-[![CI](https://github.com/sambacha/libmev/actions/workflows/main.yml/badge.svg)](https://github.com/sambacha/libmev/actions/workflows/main.yml)
-
-> miner extracted value library
-
-### Overview 
-
-> [libmev overview](https://sambacha.github.io/libmev/modules.html)
-
-## License
-
-SPDX-License-Identifier: MIT AND SSPL-1.0
-[libmev](../README.md) / [Exports](../modules.md) / FlashbotsBundleResolution
-
-# Enumeration: FlashbotsBundleResolution
+## Enumeration: FlashbotsBundleResolution
 
 ## Table of contents
 
@@ -176,7 +156,7 @@ ___
 Defined in: [src/index.ts:25](https://github.com/sambacha/libmev/blob/cd0dbf2/src/index.ts#L25)
 [libmev](../README.md) / [Exports](../modules.md) / FlashbotsOptions
 
-# Interface: FlashbotsOptions
+## Interface: FlashbotsOptions
 
 ## Table of contents
 
@@ -491,7 +471,7 @@ Name | Type |
 Defined in: [src/index.ts:68](https://github.com/sambacha/libmev/blob/cd0dbf2/src/index.ts#L68)
 [libmev](../README.md) / [Exports](../modules.md) / SimulationResponseSuccess
 
-# Interface: SimulationResponseSuccess
+## Interface: SimulationResponseSuccess
 
 ## Table of contents
 
